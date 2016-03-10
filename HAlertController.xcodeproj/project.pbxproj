@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3284E1E91C8D50B600A472F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3284E1E81C8D50B600A472F7 /* main.m */; };
+		3284E1EC1C8D50B600A472F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3284E1EB1C8D50B600A472F7 /* AppDelegate.m */; };
+		3284E1F41C8D50B600A472F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3284E1F31C8D50B600A472F7 /* Assets.xcassets */; };
+		3284E1F71C8D50B600A472F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3284E1F51C8D50B600A472F7 /* LaunchScreen.storyboard */; };
+		32F107B41C91520500B77AC9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F107B31C91520500B77AC9 /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
+		32F107BF1C91527400B77AC9 /* HAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F107B61C91527400B77AC9 /* HAlertAction.m */; settings = {ASSET_TAGS = (); }; };
+		32F107C01C91527400B77AC9 /* HAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F107B81C91527400B77AC9 /* HAlertController.m */; settings = {ASSET_TAGS = (); }; };
+		32F107C11C91527400B77AC9 /* UIActionSheet+HWW.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F107BA1C91527400B77AC9 /* UIActionSheet+HWW.m */; settings = {ASSET_TAGS = (); }; };
+		32F107C21C91527400B77AC9 /* UIAlertController+HWW.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F107BC1C91527400B77AC9 /* UIAlertController+HWW.m */; settings = {ASSET_TAGS = (); }; };
+		32F107C31C91527400B77AC9 /* UIAlertView+HWW.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F107BE1C91527400B77AC9 /* UIAlertView+HWW.m */; settings = {ASSET_TAGS = (); }; };
+		32F107C61C91535700B77AC9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32F107C51C91535700B77AC9 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
+		32F107C81C9154C300B77AC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32F107C71C9154C300B77AC9 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3284E1E41C8D50B600A472F7 /* HAlertController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HAlertController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3284E1E81C8D50B600A472F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../HAlertControllerDemo/main.m; sourceTree = "<group>"; };
+		3284E1EA1C8D50B600A472F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../HAlertControllerDemo/AppDelegate.h; sourceTree = "<group>"; };
+		3284E1EB1C8D50B600A472F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../HAlertControllerDemo/AppDelegate.m; sourceTree = "<group>"; };
+		3284E1F31C8D50B600A472F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../HAlertControllerDemo/Assets.xcassets; sourceTree = "<group>"; };
+		3284E1F61C8D50B600A472F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32F107B21C91520500B77AC9 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../HAlertControllerDemo/ViewController.h; sourceTree = "<group>"; };
+		32F107B31C91520500B77AC9 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../HAlertControllerDemo/ViewController.m; sourceTree = "<group>"; };
+		32F107B51C91527400B77AC9 /* HAlertAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HAlertAction.h; path = HAlertController/HAlertAction.h; sourceTree = SOURCE_ROOT; };
+		32F107B61C91527400B77AC9 /* HAlertAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HAlertAction.m; path = HAlertController/HAlertAction.m; sourceTree = SOURCE_ROOT; };
+		32F107B71C91527400B77AC9 /* HAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HAlertController.h; path = HAlertController/HAlertController.h; sourceTree = SOURCE_ROOT; };
+		32F107B81C91527400B77AC9 /* HAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HAlertController.m; path = HAlertController/HAlertController.m; sourceTree = SOURCE_ROOT; };
+		32F107B91C91527400B77AC9 /* UIActionSheet+HWW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIActionSheet+HWW.h"; path = "HAlertController/UIActionSheet+HWW.h"; sourceTree = SOURCE_ROOT; };
+		32F107BA1C91527400B77AC9 /* UIActionSheet+HWW.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIActionSheet+HWW.m"; path = "HAlertController/UIActionSheet+HWW.m"; sourceTree = SOURCE_ROOT; };
+		32F107BB1C91527400B77AC9 /* UIAlertController+HWW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIAlertController+HWW.h"; path = "HAlertController/UIAlertController+HWW.h"; sourceTree = SOURCE_ROOT; };
+		32F107BC1C91527400B77AC9 /* UIAlertController+HWW.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIAlertController+HWW.m"; path = "HAlertController/UIAlertController+HWW.m"; sourceTree = SOURCE_ROOT; };
+		32F107BD1C91527400B77AC9 /* UIAlertView+HWW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+HWW.h"; path = "HAlertController/UIAlertView+HWW.h"; sourceTree = SOURCE_ROOT; };
+		32F107BE1C91527400B77AC9 /* UIAlertView+HWW.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+HWW.m"; path = "HAlertController/UIAlertView+HWW.m"; sourceTree = SOURCE_ROOT; };
+		32F107C51C91535700B77AC9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../HAlertControllerDemo/Info.plist; sourceTree = "<group>"; };
+		32F107C71C9154C300B77AC9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../HAlertControllerDemo/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3284E1E11C8D50B600A472F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3284E1DB1C8D50B600A472F7 = {
+			isa = PBXGroup;
+			children = (
+				3284E1E61C8D50B600A472F7 /* HAlertController */,
+				3284E1E51C8D50B600A472F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3284E1E51C8D50B600A472F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3284E1E41C8D50B600A472F7 /* HAlertController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3284E1E61C8D50B600A472F7 /* HAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				32F107B21C91520500B77AC9 /* ViewController.h */,
+				32F107B31C91520500B77AC9 /* ViewController.m */,
+				328D2AED1C8ECAFC00B49224 /* HAlertController */,
+				3284E1E71C8D50B600A472F7 /* Supporting Files */,
+			);
+			path = HAlertController;
+			sourceTree = "<group>";
+		};
+		3284E1E71C8D50B600A472F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3284E1EA1C8D50B600A472F7 /* AppDelegate.h */,
+				3284E1EB1C8D50B600A472F7 /* AppDelegate.m */,
+				3284E1F31C8D50B600A472F7 /* Assets.xcassets */,
+				3284E1F51C8D50B600A472F7 /* LaunchScreen.storyboard */,
+				32F107C71C9154C300B77AC9 /* Main.storyboard */,
+				32F107C51C91535700B77AC9 /* Info.plist */,
+				3284E1E81C8D50B600A472F7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		328D2AED1C8ECAFC00B49224 /* HAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				32F107B51C91527400B77AC9 /* HAlertAction.h */,
+				32F107B61C91527400B77AC9 /* HAlertAction.m */,
+				32F107B71C91527400B77AC9 /* HAlertController.h */,
+				32F107B81C91527400B77AC9 /* HAlertController.m */,
+				32F107B91C91527400B77AC9 /* UIActionSheet+HWW.h */,
+				32F107BA1C91527400B77AC9 /* UIActionSheet+HWW.m */,
+				32F107BB1C91527400B77AC9 /* UIAlertController+HWW.h */,
+				32F107BC1C91527400B77AC9 /* UIAlertController+HWW.m */,
+				32F107BD1C91527400B77AC9 /* UIAlertView+HWW.h */,
+				32F107BE1C91527400B77AC9 /* UIAlertView+HWW.m */,
+			);
+			path = HAlertController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3284E1E31C8D50B600A472F7 /* HAlertController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3284E1FB1C8D50B600A472F7 /* Build configuration list for PBXNativeTarget "HAlertController" */;
+			buildPhases = (
+				3284E1E01C8D50B600A472F7 /* Sources */,
+				3284E1E11C8D50B600A472F7 /* Frameworks */,
+				3284E1E21C8D50B600A472F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HAlertController;
+			productName = HAlertController;
+			productReference = 3284E1E41C8D50B600A472F7 /* HAlertController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3284E1DC1C8D50B600A472F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Dong jing Ltd.";
+				TargetAttributes = {
+					3284E1E31C8D50B600A472F7 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 3284E1DF1C8D50B600A472F7 /* Build configuration list for PBXProject "HAlertController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3284E1DB1C8D50B600A472F7;
+			productRefGroup = 3284E1E51C8D50B600A472F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3284E1E31C8D50B600A472F7 /* HAlertController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3284E1E21C8D50B600A472F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3284E1F71C8D50B600A472F7 /* LaunchScreen.storyboard in Resources */,
+				3284E1F41C8D50B600A472F7 /* Assets.xcassets in Resources */,
+				32F107C61C91535700B77AC9 /* Info.plist in Resources */,
+				32F107C81C9154C300B77AC9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3284E1E01C8D50B600A472F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F107B41C91520500B77AC9 /* ViewController.m in Sources */,
+				32F107C01C91527400B77AC9 /* HAlertController.m in Sources */,
+				3284E1EC1C8D50B600A472F7 /* AppDelegate.m in Sources */,
+				3284E1E91C8D50B600A472F7 /* main.m in Sources */,
+				32F107C21C91527400B77AC9 /* UIAlertController+HWW.m in Sources */,
+				32F107C11C91527400B77AC9 /* UIActionSheet+HWW.m in Sources */,
+				32F107C31C91527400B77AC9 /* UIAlertView+HWW.m in Sources */,
+				32F107BF1C91527400B77AC9 /* HAlertAction.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3284E1F51C8D50B600A472F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3284E1F61C8D50B600A472F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ../HAlertControllerDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3284E1F91C8D50B600A472F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3284E1FA1C8D50B600A472F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3284E1FC1C8D50B600A472F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = HAlertControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.olcps.HAlertController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3284E1FD1C8D50B600A472F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = HAlertControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.olcps.HAlertController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3284E1DF1C8D50B600A472F7 /* Build configuration list for PBXProject "HAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3284E1F91C8D50B600A472F7 /* Debug */,
+				3284E1FA1C8D50B600A472F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3284E1FB1C8D50B600A472F7 /* Build configuration list for PBXNativeTarget "HAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3284E1FC1C8D50B600A472F7 /* Debug */,
+				3284E1FD1C8D50B600A472F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3284E1DC1C8D50B600A472F7 /* Project object */;
+}
