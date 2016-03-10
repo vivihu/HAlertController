@@ -1,5 +1,5 @@
 # This is Git's per-user configuration file.
-d::Spec.new do |s|
+Pod::Spec.new do |s|
   s.name         = "HAlertController"
   s.version      = "1.0.0"
   s.summary      = "集成UIAlertView,UIActionSheet,UIAlertController"
